@@ -19,6 +19,7 @@
 
 -(BOOL)chainRouter:(NSString *)identifier withObject:(id)object
 {
+    //如果是yes  就往下传递 如果NO  就在当前页面处理就结束了 是实现消息链传递的最好方法
     return YES;
 }
 @end
