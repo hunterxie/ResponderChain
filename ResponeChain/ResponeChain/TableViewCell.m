@@ -17,18 +17,17 @@
     
     [self.aLabel addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap)]];
     self.aLabel.userInteractionEnabled = YES;
-    
     // Initialization code
 }
 -(void)tap
 {
     [self handAction:@"某个Cell" withObject:@"niubi"];
 }
--(BOOL)chainRouter:(NSString *)identifier withObject:(id)object
-{
-   //这里也可以处理下 不如按钮点击的ui处理  不处理就直接传递给nextresponder;
-    return YES;
-}
+//-(BOOL)chainRouter:(NSString *)identifier withObject:(id)object
+//{
+//   //这里也可以处理下 不如按钮点击的ui处理  不处理就直接传递给nextresponder;
+//    return YES;
+//}
 
 -(void)config:(NSDictionary *)dic
 {
