@@ -13,7 +13,7 @@ View - >View  -> VC -> window
 1、某个Cell的.m文件中点击事件触发
 ···
 @implementation XLControlCell
-
+···
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -21,10 +21,12 @@ View - >View  -> VC -> window
 // Drawing code
 }
 */
+···
 -(void)awakeFromNib
 {
 [super awakeFromNib];
 }
+···
 - (IBAction)mClickAll:(id)sender {
 [self handAction:NSStringFromClass([self class]) withObject:@(1)];
 }
