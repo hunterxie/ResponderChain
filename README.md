@@ -30,7 +30,7 @@ View - >View  -> VC -> window
 @end
 ```
 2、在使用该Cell的控制器ViewController下使用
-···
+```
 -(BOOL)chainRouter:(NSString *)identifier withObject:(id)object
 {
 if ([identifier isEqualToString:@"XLControlCell"]) {
@@ -38,4 +38,4 @@ if ([identifier isEqualToString:@"XLControlCell"]) {
 }
 return NO;
 }
-···
+```
