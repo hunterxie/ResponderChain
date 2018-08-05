@@ -9,7 +9,8 @@
 
 Cell  -> VC -> window
 View - >View  -> VC -> window
-举例：
+<br>  
+举例：<br>  
 1、某个Cell的.m文件中点击事件触发
 ```
 @implementation XLControlCell
@@ -29,7 +30,7 @@ View - >View  -> VC -> window
 }
 @end
 ```
-2、在使用该Cell的控制器ViewController下使用
+2、在使用该Cell的控制器ViewController下使用<br>  
 ```
 -(BOOL)chainRouter:(NSString *)identifier withObject:(id)object
 {
